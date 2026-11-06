@@ -1,3 +1,36 @@
+# ⚠️ CATATAN BAHASA INDONESIA — BACA DULU SEBELUM APA PUN
+
+> **Repo ini adalah fork untuk keperluan dokumentasi & analisis — BUKAN ajakan untuk menjalankan alatnya.**
+> Dokumen asli (Bahasa Mandarin) dipertahankan utuh di bawah tanpa diterjemahkan. Analisis lengkap tersedia di **[ANALISIS.md](./ANALISIS.md)**.
+
+## Apa repo/alat ini?
+
+`Google_AI_Pro_2Year_ZeroCost_Auto` adalah konsol otomasi berbasis browser (Python + FastAPI + Playwright) yang dirancang untuk mengklaim langganan **Google AI Pro (5 TB)** gratis hingga **24 bulan per akun**, dan memproses **banyak akun Google sekaligus secara massal**. Berdasarkan pembacaan kodenya, alat ini bekerja dengan memakai *offer token* Google One di luar penerima yang berhak, menyuntik JavaScript untuk memanipulasi halaman checkout `one.google.com`, menumpuk tiga lapis paket gratis (12+6+6 bulan), serta menyamarkan lokasi lewat proxy residensial Amerika Serikat.
+
+## Status hukum & ketentuan layanan
+
+Alat ini **melanggar Ketentuan Layanan Google** (penyalahgunaan promo, multi-akun massal, otomasi tanpa izin, penyelubungan region). Memperoleh layanan berbayar melalui manipulasi seperti ini dapat dikategorikan ketidakwajaran/penipuan di banyak yurisdiksi. "Harganya US$0.00" tidak mengubah sifatnya.
+
+## Risiko nyata bagi siapa pun yang menjalankannya
+
+| Risiko | Dampak |
+|---|---|
+| Banned & clawback | Langganan dicabat, akun bisa dinonaktifkan, **Google dapat menagih penuh ke kartu** |
+| Paparan kredensial | Password, email pemulihan, **seed 2FA**, dan **nomor kartu + CVC** disimpan **plaintext** di `config.json` |
+| Kode tak dapat diaudit | ±96 KB script dari sumber anonim yang terhubung toko kartu grey-market; versi baru bisa berubah kapan saja |
+| Eksposur hukum | Penggunaan maupun distribusi alat fraud berpotensi bermasalah secara hukum |
+
+## Rekomendasi
+
+1. **Jangan jalankan** alat ini dengan data kartu atau akun asli.
+2. Jika pernah menjalankan: ganti password akun terkait, **regenerasi seed 2FA**, dan **blokir/ganti kartu** yang pernah dimasukkan.
+3. Baca analisis teknis lengkapnya di **[ANALISIS.md](./ANALISIS.md)**.
+4. Butuh akses AI secara resmi? Gunakan jalur legal: tier gratis Google AI Studio / Gemini API, trial resmi, atau paket edukasi.
+
+---
+
+# Konten Asli (Bahasa Mandarin, tidak diubah)
+
 ========================================================================
   Google AI Pro (5 TB) 零成本两年 (US$0.00 -> 24个月) 全自动控制台
 ========================================================================
